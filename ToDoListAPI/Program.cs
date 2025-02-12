@@ -2,7 +2,7 @@ using Microsoft.EntityFrameworkCore;
 using ToDoListAPI.Data;
 
 var builder= WebApplication.CreateBuilder(args);
-builder.Services.AddDbContext<TodoContext>((options)=>
+builder.Services.AddDbContext<ApplicationDbContext>((options)=>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"))
 
 );

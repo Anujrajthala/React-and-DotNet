@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\React+ASP_DOTNET_CORE\\ToDoListAPI\\ToDoListAPI.csproj": {}
+    "D:\\React and Dotnet\\React-and-Dotnet-Core\\ToDoListAPI\\ToDoListAPI.csproj": {}
   },
   "projects": {
-    "D:\\React+ASP_DOTNET_CORE\\ToDoListAPI\\ToDoListAPI.csproj": {
+    "D:\\React and Dotnet\\React-and-Dotnet-Core\\ToDoListAPI\\ToDoListAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\React+ASP_DOTNET_CORE\\ToDoListAPI\\ToDoListAPI.csproj",
+        "projectUniqueName": "D:\\React and Dotnet\\React-and-Dotnet-Core\\ToDoListAPI\\ToDoListAPI.csproj",
         "projectName": "ToDoListAPI",
-        "projectPath": "D:\\React+ASP_DOTNET_CORE\\ToDoListAPI\\ToDoListAPI.csproj",
+        "projectPath": "D:\\React and Dotnet\\React-and-Dotnet-Core\\ToDoListAPI\\ToDoListAPI.csproj",
         "packagesPath": "C:\\Users\\Anuj\\.nuget\\packages\\",
-        "outputPath": "D:\\React+ASP_DOTNET_CORE\\ToDoListAPI\\obj\\",
+        "outputPath": "D:\\React and Dotnet\\React-and-Dotnet-Core\\ToDoListAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Anuj\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,9 +45,21 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "Microsoft.AspNetCore.Cors": {
               "target": "Package",
               "version": "[2.3.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.2, )"
             },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
