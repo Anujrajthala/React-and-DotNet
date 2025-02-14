@@ -1,5 +1,5 @@
 namespace ToDoListAPI.DTOs{
     public class TodoUpdateDTO{
-        public string isCompleted{set; get;}
+        public string isCompleted{get; set;}
     }
 }

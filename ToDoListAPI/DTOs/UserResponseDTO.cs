@@ -1,8 +1,8 @@
 namespace ToDoListAPI.DTOs{
     public class UserResponseDTO{
-            public string Id{set; get;}
-            public string FullName{set;get;}
-            public string Email{set;get;}
+            public string Id{get; set;}
+            public string FullName{get;set;}
+            public string Email{get;set;}
             
         
     }

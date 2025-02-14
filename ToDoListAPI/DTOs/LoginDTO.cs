@@ -1,6 +1,10 @@
+using System.ComponentModel.DataAnnotations;
+
 namespace ToDoListAPI.DTOs{
     public class LoginDTO{
-        public string Email{set; get;}
-        public string Password{set; get;}
+
+        public string Email{get; set;}
+       
+        public string Password{get; set;}
     }
 }

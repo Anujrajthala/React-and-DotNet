@@ -7,7 +7,7 @@ namespace ToDoListAPI.Models{
     
         public DateTime DueDate{get; set;}
 
-        public string UserId{set; get;}
-        public ApplicationUser User{set; get;}
+        public string UserId{get; set;}
+        public ApplicationUser User{get; set;}
     }
 }
